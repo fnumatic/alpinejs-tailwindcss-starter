@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML Template + Alpine.js (CDN)</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script defer src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/alpinejs" ></script>
+    <script src="./js/script.js"  ></script>
+
+  </head>
+
+  <body x-data>
+    <h1
+    class="font-semibold text-lg m-4"
+    x-text="$store.data.topic"> </h1>
+  </body>
+</html>
